@@ -159,6 +159,4 @@ class MPMCQueue
     CachePad pad2_;
     std::atomic<size_t> head_;
     CachePad pad3_;
-
-    //DISALLOW_COPY_AND_ASSIGN(MPMCQueue);
 };
